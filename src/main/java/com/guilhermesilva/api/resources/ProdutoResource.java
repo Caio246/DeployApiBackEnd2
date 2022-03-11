@@ -16,6 +16,7 @@ import com.guilhermesilva.api.servicies.ProdutoService;
 
 @RestController
 @RequestMapping("/produtos")
+@CrossOrigin(origins = "https://apimonitoriadeploy.netlify.app/")
 public class ProdutoResource {
 	
 	@Autowired
